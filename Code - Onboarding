@@ -1,0 +1,16 @@
+# filename: hello_world.py
+
+def greet(name):
+  """
+  This function takes a name as input and returns a greeting message.
+  """
+  return f"Hello, {name}! Welcome to GitHub!"
+
+if __name__ == "__main__":
+  user_name = "Developer"
+  message = greet(user_name)
+  print(message)
+
+  # You can also try with a different name
+  another_name = "World"
+  print(greet(another_name))
